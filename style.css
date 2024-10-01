@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    padding-top: 70px;
+    padding-left: 80px;
+    height: 1000px;
+}
+.header{
+    display: flex;
+    background-color: rgb(250, 249, 249); 
+    height: 60px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.left-section{
+    
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.middle-section{
+    
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.hamburger{
+    width: 30px;
+    margin-left: 10px;
+}
+.youtube{
+    width: 90px;
+    margin-right: 10px;
+}
+.search-bar{
+    flex: 1;
+    height: 40px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(167, 166, 166);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    max-width: 500px;
+}
+.search-bar::placeholder{
+    font-family: arial;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.button1{
+   width: 40px;
+   border-color: rgb(167, 166, 166);
+   border-radius: 3px;
+   border-width: 1px;
+   border-style: solid;
+   margin-left: -1px;
+   margin-right: 6px;
+   height: 43px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+   
+}
+.button2{
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    height: 43px;
+    margin-right: 20px;
+
+
+}
+.search{
+    width: 36px;
+    height: 20px;
+
+}
+.voice{
+    width: 40px;
+    height: 30px;
+}
+.upload{
+    width: 35px;
+}
+.apps{
+    width: 35px;
+}
+.notification{
+    width: 35px;
+}
+.profile{
+   width: 40px;
+   border-radius: 20px;
+   margin-right: 5px;
+}
+.right-section{
+    
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.side-bar{
+    background-color: rgb(250, 249, 249); 
+    position: fixed;
+    top:60px ;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+
+}
+.side-bar p{
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.home{
+    width: 30px;
+    padding: 20px 20px 2px 20px;
+    
+
+}
+.explore{
+    width:30px;
+    padding: 20px 20px 2px 20px;
+}
+.sub{
+    width: 30px;
+    padding: 20px 20px 2px 20px;
+}
+.originals{
+    width: 30px;
+    padding: 20px 20px 2px 20px;
+}
+.music{
+    width: 30px;
+    padding: 20px 20px 2px 20px;
+}
+.library{
+    width: 30px;
+    padding: 20px 20px 2px 20px;
+}
+.first{
+
+    margin: 10px;
+
+
+}
+.sec{
+   
+    margin: 10px;
+}
+.third{
+    
+    margin: 10px;
+}
+.fourth{
+  
+    margin: 10px;
+}
+.fifth{
+    
+    margin: 10px;
+}
+.sixth{
+    
+    margin: 10px;
+}
